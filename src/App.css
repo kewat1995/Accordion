@@ -19,6 +19,13 @@
 .active {
   background-color: #eda516;
 }
+.active1 {
+  color: orange;
+}
+.inactive {
+  color: black;
+}
+
 .content {
   max-width: 500px;
 }
@@ -38,6 +45,9 @@
 .answer {
   color: #fff;
   height: auto;
+}
+.star-rating {
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
