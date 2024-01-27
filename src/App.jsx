@@ -20,10 +20,15 @@ function App() {
 
     setMultiple(copyMultiple);
   };
-  // console.log(Selection, multiple);
+
   return (
     <div className="container">
-      <button onClick={() => setMultiSelection(!enablemultiselection)}>
+      <button
+        style={{
+          background: `${enablemultiselection ? "#bf840e" : "#614101"}`,
+        }}
+        onClick={() => setMultiSelection(!enablemultiselection)}
+      >
         Multiple Selection Enabled
       </button>
       <div className="content">
